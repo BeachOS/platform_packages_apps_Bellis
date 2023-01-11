@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2014 The Android Open Source Project
+ Copyright 2022 The Beach Institute
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <string name="app_name">Work Profile</string>
+    <string name="app_and_content_access">Manage Apps &amp; Content Access</string>
+    <string name="set_up_profile">Set up work profile</string>
+    <string name="remove_profile">Remove work profile</string>
+    <string name="remove_profile_confirmation">Are you sure? This will permanently delete your work profile, including all apps inside that profile, their data, and any files.</string>
+    <string name="managed_provisioning_not_enabled">Managed provisioning is not enabled</string>
+    <string name="profile_setup_disabled">Unable to setup new work profile</string>
+    <string name="no_work_profile">No work profile found</string>
+    <string name="no_work_profile_help">A work profile can be set up on this device, allowing you to securely and privately use the same device for work and personal purposes</string>
+    <string name="existing_work_profile">Existing work profile found</string>
+    <string name="existing_work_profile_help">To manage the existing work profile, navigate to the &lt;b&gt;WORK&lt;/b&gt; tab in the launcher</string>
+    <string name="manage_work_profile">Manage work profile</string>
+    <string name="manage_work_profile_help">Work apps are marked with a briefcase icon so you can distinguish them from personal apps.</string>
+</resources>

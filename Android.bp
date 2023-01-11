@@ -1,0 +1,28 @@
+android_app {
+    name: "Bellis",
+
+    manifest: "app/src/main/AndroidManifest.xml",
+    resource_dirs: ["app/src/main/res"],
+    srcs: ["app/src/main/java/**/*.kt"],
+
+    static_libs: [
+        "androidx.appcompat_appcompat",
+        "androidx.navigation_navigation-fragment-ktx",
+        "androidx.navigation_navigation-ui-ktx",
+        "bellis-lib-com.google.android.material_material",
+        "kotlinx-coroutines-android",
+        "kotlinx-coroutines-core",
+    ],
+
+    sdk_version: "current",
+    product_specific: true,
+
+    required: ["preinstalled-packages-org.beachos.bellis.xml"],
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-org.beachos.bellis.xml",
+    product_specific: true,
+    src: "preinstalled-packages-org.beachos.bellis.xml",
+    sub_dir: "sysconfig",
+}
